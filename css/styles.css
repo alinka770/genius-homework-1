@@ -1,0 +1,218 @@
+/* Roboto*/
+@font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v32-latin-500.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v32-latin-900.woff2') format('woff2'); 
+  }
+
+  /* Play */
+
+ @font-face {
+    font-display: swap; 
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2'); 
+  }
+
+  :root {
+    --color-primary-white: #FFFFFF;
+    --color-primary-blue: #2b7ffF;
+    --color-primary-dark: #011c44;
+    --color-secondary-dark-grey: #4A4A4A;
+    --color-secondary-light-grey: #747272;
+    --color-secondary-dark: #011F4A;
+    --color-secondary-yellow: #FFD02B;
+}
+
+/* Base */
+
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+  font-family: 'Roboto';
+  color: var(--color-primary-dark);
+}
+
+/* Buttonos */
+
+.button {
+  padding: 16px 32px;
+  gap: 10px;
+  width: 219px;
+  height: 53px;
+  background-color: var(--color-primary-blue);
+  border-radius: 32px;
+  border-color: var(--color-primary-blue);
+  font-weight: 600;
+  color: var(--color-primary-white);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-primary-blue);
+}
+
+/* Link */
+.link-header {
+    color:var(--color-primary-dark);
+    text-decoration: none;
+}
+
+.link-header:hover {
+    color: var(--color-primary-blue);   
+    font-weight: 700;
+}
+
+/* Hero section */
+
+.hero-title {
+    color: var(--color-primary-blue);
+    font-family: 'Play';
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.8;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.hero-text {
+  font-size: 12px;
+  color: var(--color-secondary-dark-grey);
+  width: 238px;
+  height: 36px;
+  text-align: center;
+}
+
+
+/* Section title */
+
+.section-title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-primary-dark);
+  font: "Play";
+}
+
+.section-title .accent {
+  color: var(--color-primary-blue);
+}
+
+.section-title .brand {
+  text-transform: capitalize;
+}
+
+/* Section about us */
+.about-us-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.about-us-text .accent{
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Section why us */
+.why-us-items {
+  background-color: var(--color-primary-white);
+}
+
+.why-us-text {
+  line-height: 1.3;
+  text-align: center;
+}
+
+/* Procedures section */
+
+.procedure-contact-title {
+  color: var(--color-primary-white);
+  font-size: 22px;
+  text-align: center;
+}
+
+.procedure-contact-title .accent{
+  color: var(--color-primary-blue);
+}
+
+
+/* Contact section */
+.contact-form {
+  background-color: var(--color-secondary-dark);
+}
+
+.contact-form-privacy {
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--color-secondary-light-grey);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--color-primary-dark);
+}
+
+.link-footer {
+  color: var(--color-primary-white);
+  text-decoration: none;
+  font-size:16px;
+}
+
+.link-footer:hover {
+  color: var(--color-secondary-light-grey);   
+  font-weight: 700;
+}
+
+.address-link {
+  font-size:1 6px;
+  color: var(--color-primary-white);
+  text-decoration: none;
+}
+
+.address-copyright {
+  font-size: 13px;
+  color: var(--color-secondary-light-grey);
+}
